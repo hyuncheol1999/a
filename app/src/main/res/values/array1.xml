@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <resources>
+
+        <string-array name="spinner_entries1">
+            <item>종이</item>
+            <item>상자</item>
+            <item>신문</item>
+            <item>노트</item>
+            <item>종이팩</item>
+        </string-array>
+
+</resources>

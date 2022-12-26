@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_entries5">
+        <item>페트병, 플라스틱 용기류</item>
+        <item>아이템1</item>
+        <item>아이템2</item>
+        <item>아이템3</item>
+        <item>아이템4</item>
+    </string-array>
+
+</resources>

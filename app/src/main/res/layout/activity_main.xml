@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="10">
+
+
+
+    <LinearLayout
+        android:background="@drawable/logo1"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+
+        <ImageButton
+            android:id="@+id/box1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/box11"
+            android:text="종이류"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/box2"
+            android:layout_width="0dp"
+            android:layout_height="108dp"
+            android:background="@drawable/box22"
+            android:text="캔류"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/box3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/box33"
+            android:text="플라스틱류"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="3"
+       android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <ImageButton
+            android:id="@+id/box4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/box44"
+            android:text="종이류"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/box5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/box55"
+            android:text="캔류"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:weightSum="2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp">
+
+
+        <ImageButton
+            android:id="@+id/QR"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/qr"
+            android:text="qr"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/MAP"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/map"
+            android:text="map"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

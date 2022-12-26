@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_entries4">
+        <item>비닐류</item>
+
+    </string-array>
+
+</resources>

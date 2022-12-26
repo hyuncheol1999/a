@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_entries3">
+        <item>유리병</item>
+        <item>음료수병</item>
+        <item>소주병, 맥주병</item>
+
+    </string-array>
+
+</resources>
